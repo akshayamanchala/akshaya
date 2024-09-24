@@ -1,0 +1,19 @@
+pipeline{
+agent any
+stages{
+stage ('Build'){
+stops{
+echo 'Building..'
+}
+}
+stage ('Test'){
+stops{
+echo 'Testing..'
+}
+}
+stage ('Deploy'){
+stops{
+echo 'Deploying..'
+}
+}
+}}
