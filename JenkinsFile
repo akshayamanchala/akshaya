@@ -1,19 +1,19 @@
 pipeline{
 agent any
 stages{
-stage ('Build'){
+stage ("Build"){
 stops{
-echo 'Building..'
+echo "Building.."
 }
 }
-stage ('Test'){
+stage ("Test"){
 stops{
-echo 'Testing..'
+echo "Testing.."
 }
 }
-stage ('Deploy'){
+stage ("Deploy"){
 stops{
-echo 'Deploying..'
+echo "Deploying.."
 }
 }
 }}
